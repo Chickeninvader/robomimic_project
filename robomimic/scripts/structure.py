@@ -25,12 +25,12 @@ def save_hdf5_structure(file_path):
     print(f"Structure saved to {output_txt_path}")
 
 # Example usage
-save_hdf5_structure('/data/logs/converted_standard/standard_demo.hdf5')
+save_hdf5_structure('/data/logs/converted_standard/lab_record_1.hdf5')
 
 # Example usage
 # print_hdf5_demo_structure('/home/duckie/Desktop/simulation/robomimic/datasets/lift/ph/low_dim_v141.hdf5', demo_name="demo_1")
 
-save_hdf5_structure("/home/duckie/Desktop/simulation/robomimic/datasets/lift/ph/low_dim_v141.hdf5")
+# save_hdf5_structure("/home/duckie/Desktop/simulation/robomimic/datasets/lift/ph/low_dim_v141.hdf5")
 
 # import h5py
 

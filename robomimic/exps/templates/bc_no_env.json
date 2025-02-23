@@ -51,10 +51,9 @@
         "pad_frame_stack": true,
         "dataset_keys": [
             "actions",
-            "rewards",
             "dones"
         ],
-        "goal_mode": "last",
+        "goal_mode": null,
         "cuda": true,
         "batch_size": 2,
         "num_epochs": 2,
@@ -173,7 +172,7 @@
             },
             "goal": {
                 "low_dim": [],
-                "rgb": ["observation"],
+                "rgb": [],
                 "depth": [],
                 "scan": []
             }
