@@ -12,7 +12,7 @@
         "save": {
             "enabled": true,
             "every_n_seconds": null,
-            "every_n_epochs": 1,
+            "every_n_epochs": 50,
             "epochs": [],
             "on_best_validation": false,
             "on_best_rollout_return": false,
@@ -55,8 +55,8 @@
         ],
         "goal_mode": null,
         "cuda": true,
-        "batch_size": 2,
-        "num_epochs": 2,
+        "batch_size": 64,
+        "num_epochs": 20,
         "seed": 1
     },
     "algo": {
